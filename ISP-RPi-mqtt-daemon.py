@@ -34,11 +34,11 @@ try:
 except ImportError:
     apt_available = False
 
-script_version = "1.8.5"
+script_version = "1.8.6"
 script_name = 'ISP-RPi-mqtt-daemon.py'
 script_info = '{} v{}'.format(script_name, script_version)
 project_name = 'RPi Reporter MQTT2HA Daemon'
-project_url = 'https://github.com/ironsheep/RPi-Reporter-MQTT2HA-Daemon'
+project_url = 'https://github.com/hellshobbit/RPi-Reporter-MQTT2HA-Daemon/'
 
 # we'll use this throughout
 local_tz = get_localzone()
